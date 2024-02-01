@@ -1,0 +1,58 @@
+body {
+  background-color: cadetblue;
+}
+
+.fila {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.fila .encabezado {
+  height: 80%;
+  max-width: 45%;
+  margin: 25px;
+  padding: 10px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+}
+.fila .encabezado h1, .fila .encabezado h2 {
+  text-align: center;
+}
+.fila .encabezado #contenedor {
+  display: flex;
+  flex-direction: row;
+}
+.fila .encabezado #contenedor #imagen {
+  margin: 10px;
+  border: black solid 5px;
+  height: 100px;
+}
+.fila .encabezado #contenedor #datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.fila .encabezado2 {
+  height: 80%;
+  max-width: 30%;
+  min-width: 25%;
+  margin: 25px;
+  padding: 10px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+}
+.fila .encabezado2 h1, .fila .encabezado2 h2 {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
+
+.fila .encabezado2 .estrellaA {
+  height: 20px;
+}
